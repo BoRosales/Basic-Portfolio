@@ -65,11 +65,13 @@ li a{
 form {
     /* Just to center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    margin-top:50px;
+    width: 800px;
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    color: #4aaaa5;
   }
   
   form div + div {
@@ -89,7 +91,7 @@ form {
     font: 1em sans-serif;
   
     /* To give the same size to all text fields */
-    width: 300px;
+    width: 700px;
     box-sizing: border-box;
   
     /* To harmonize the look & feel of text field border */
@@ -111,7 +113,7 @@ form {
   
   .button {
     /* To position the buttons to the same position of the text fields */
-    padding-left: 575px; /* same size as the label elements */
+    padding-left: 430px; /* same size as the label elements */
   }
   
   button {
@@ -119,6 +121,9 @@ form {
        between the labels and their text fields */
     margin-left: .5em;
     margin: 0 auto;
+    color: white;
+    background-color: #4aaaa5;
+    
   }
   /* This is the background image */
   #container{
@@ -131,7 +136,7 @@ form {
       margin-left: 100px;
       margin: auto;
       padding: 30px;
-      height: 450px;
+      height: 550px;
       max-width: 900px;
       background-color: #ffffff;
       border: #dddddd;
@@ -161,7 +166,7 @@ form {
     .stack{
         margin: 20px 0 0 0;
     }
-    /* This the pictures */
+    /* This is the pictures */
     .pixel{
         position: relative;
         display: inline-block;
@@ -180,3 +185,4 @@ form {
         left: 0;
         right: 0;
     }
+    
